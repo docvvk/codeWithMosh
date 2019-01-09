@@ -16,6 +16,8 @@ import {
 
 library.add(faHeart, faHelicopter, faKissWinkHeart);
 
+console.log("SHAURYA", process.env.REACT_APP_NAME);
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
